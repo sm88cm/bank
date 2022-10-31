@@ -62,19 +62,4 @@ public class BankAccountTest {
 
         assertEquals(expectedValue, value);
     }
-    /*public void test() {
-        ArrayList<BankAccount> accountList = new ArrayList<>();
-        BankAccount ba = new BankAccount("Stuart", "McMillan", (accountList.size())+1);
-        accountList.add(ba);
-        BankAccount bb = new BankAccount("Stuart", "McMillan", (accountList.size())+1);
-        accountList.add(bb);
-        BankAccount bc = new BankAccount("Stuart", "McMillan", (accountList.size())+1);
-        accountList.add(bc);
-
-        int b = ba.getAccountNumber();
-        int a = bb.getAccountNumber();
-        int c = bc.getAccountNumber();
-
-        System.out.println(b + " " + a + " " + c);
-    } */
 }
