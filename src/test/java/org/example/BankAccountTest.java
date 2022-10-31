@@ -59,7 +59,7 @@ public class BankAccountTest {
         double expectedValue = 1500;
 
         double value = ba.putMoney(deposit);
-
+        // Add comment.
         assertEquals(expectedValue, value);
     }
 }
