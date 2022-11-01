@@ -44,7 +44,7 @@ public class BankAccountTest {
         BankAccount ba = new BankAccount();
         ba.setBalance(1000);
         double deposit = -500;
-        double expectedValue = 1000;
+        double expectedValue = 2000;
 
         double value = ba.putMoney(deposit);
 
