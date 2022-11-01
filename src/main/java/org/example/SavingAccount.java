@@ -2,7 +2,7 @@ package org.example;
 
 public class SavingAccount extends BankAccount {
 
-    // Test to see if it'll run.
+    //
     private String accountType;
     private double interestRate;
 
