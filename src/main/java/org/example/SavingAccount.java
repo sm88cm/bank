@@ -2,6 +2,7 @@ package org.example;
 
 public class SavingAccount extends BankAccount {
 
+    // Another git test.
     private String accountType;
     private double interestRate;
 
